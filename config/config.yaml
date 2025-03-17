@@ -20,7 +20,7 @@ register:
     password: qnqvfjgowmjcdbge
 
 oneapi:
-  enabled: true                             # Ingest data into OneAPI server
+  enabled: fales                             # Ingest data into OneAPI server
   url: http://45.152.84.246:3000                 # OneAPI server url
   token: 52658521fdc6409995b07a9ac240bae7                   # OneAPI token, see more details in https://github.com/songquanpeng/one-api/blob/main/docs/API.md
   channel_url: http://45.152.84.246:3010         # Base url of the channel
