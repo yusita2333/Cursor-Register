@@ -4,10 +4,10 @@ register:
   delete_low_balance_account: true           # [IMAP only] Re-register account if the balance is not enough
   delete_low_balance_account_threshold: 50   # [IMAP only] Re-register account balance threshold
   email_server: 
-    name: temp_email_server                  # Should be temp_email_server or imap_email_server
-    use_custom_address: false                # [IMAP only] Should be true when use imap_email_server
+    name: imap_email_server                  # Should be temp_email_server or imap_email_server
+    use_custom_address: true                # [IMAP only] Should be true when use imap_email_server
     custom_email_address:                    # [IMAP only] email address list
-    - email1@outlook.com
+    - RedenzAvansino@outlook.com
     - email2@outlook.com
 
   temp_email_server:                         # Temp email server you use
@@ -20,7 +20,7 @@ register:
     password: password
 
 oneapi:
-  enabled: false                             # Ingest data into OneAPI server
-  url: http://localhost:3000                 # OneAPI server url
-  token: your_oneapi_token                   # OneAPI token, see more details in https://github.com/songquanpeng/one-api/blob/main/docs/API.md
-  channel_url: http://localhost:3010         # Base url of the channel
+  enabled: true                             # Ingest data into OneAPI server
+  url: http://45.152.84.246:3000                 # OneAPI server url
+  token: 52658521fdc6409995b07a9ac240bae7                   # OneAPI token, see more details in https://github.com/songquanpeng/one-api/blob/main/docs/API.md
+  channel_url: http://45.152.84.246:3010         # Base url of the channel
