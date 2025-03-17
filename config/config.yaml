@@ -8,7 +8,7 @@ register:
     use_custom_address: true                # [IMAP only] Should be true when use imap_email_server
     custom_email_address:                    # [IMAP only] email address list
     - RedenzAvansino@outlook.com
-    - email2@outlook.com
+    - qwqw1707240341@outlook.com
 
   temp_email_server:                         # Temp email server you use
     name: Minuteinboxcom
@@ -16,8 +16,8 @@ register:
   imap_email_server:                         # IMAP setting
     imap_server: imap.qq.com
     imap_port: 993
-    username: username
-    password: password
+    username: 3336545597@qq.com
+    password: qnqvfjgowmjcdbge
 
 oneapi:
   enabled: true                             # Ingest data into OneAPI server
